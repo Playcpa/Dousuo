@@ -1,3 +1,5 @@
+![image alt](https://github.com/Playcpa/Dousuo/blob/ee3f0bae3d652b2b4fb557de2cfa39721b5de61e/IMG_20240811_201721_472.jpg)
+
 # Dousu emulator
 >Dousuo is a script to install preconfigured rootfs with Box86, Box64, Wine and DXVK installed. It allows you to run x86 and x86_64 windows programs (such as games) on Android using Termux.
 
