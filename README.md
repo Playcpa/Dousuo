@@ -6,7 +6,8 @@
 Installation
 After installation the start command in termux is Dousuo 
 
-
+link emulitor 
+| not now |
 
 # Configuration
 After installing Dousuo some settings and variables can be changed in Dousuo/preferences menu. To install Vulkan/OpenGL drivers you should start Wine and select Mesa and D3D libs in Start Menu -
