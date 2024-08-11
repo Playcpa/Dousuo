@@ -1,15 +1,17 @@
 ![image alt](https://github.com/Playcpa/Dousuo/blob/ee3f0bae3d652b2b4fb557de2cfa39721b5de61e/IMG_20240811_201721_472.jpg)
 
 # Dousu emulator
->Dousuo is a script to install preconfigured rootfs with Box86, Box64, Wine and DXVK installed. It allows you to run x86 and x86_64 windows programs (such as games) on Android using Termux.
+`Dousuo` is a script to install preconfigured rootfs with Box86, Box64, Wine and DXVK installed. It allows you to run x86 and x86_64 windows programs (such as games) on Android using Termux.
 
->Dousuo is not mobox and box64droid .
+`Dousuo` is not mobox and box64droid .
 
 Installation
 After installation the start command in termux is Dousuo 
 
-link emulitor 
-| not now |
+```bash
+not now 
+```
+
 
 # Configuration
 After installing Dousuo some settings and variables can be changed in Dousuo/preferences menu. To install Vulkan/OpenGL drivers you should start Wine and select Mesa and D3D libs in Start Menu -
@@ -27,18 +29,18 @@ After installing Dousuo some settings and variables can be changed in Dousuo/pre
 
 
 
-Snapdragon with Adreno 6xx or Adreno 7xx — 
+`Snapdragon` with Adreno 6xx or Adreno 7xx — 
 Turnip + Zink / Turnip + DXVK with better speed.
 Qualcomm/Mediatek/Exynos/Mali — VirGL
 
 
-Dousuo has automatic updates, so you don't have to reinstall it so often.
+`Dousuo` has automatic updates, so you don't have to reinstall it so often.
 TFM works a lot faster with custom wine.
 The most lightweight rootfs.
 Proot which is faster than proot-distro.
 Chroot with working VirGL for root users
-VirGL server with dxtn support (termux virgl doesn't have this). _Mesa-VirGL 
-(18.3.0, 19.1.8, 22.1.7.)
+VirGL server with dxtn support (termux virgl doesn't have this). Mesa-VirGL 
+18.3.0, 19.1.8, 22.1.7.
 
 Turnip with adreno 610 and 7xx support. Mesa-zink-11.06.22 built from alexvorxx repo which is faster and has better compatibility. D8VK + DXVK + VKD3D and 
 WineD3D.
@@ -47,30 +49,30 @@ Prefix-tweaks script that automatically installs DirectX, 7-Zip, various registr
 Experimental wine-tweaks script that automatically installs downloaded wine, customizes it for better TFM speed and reduces size
 
 
-Third party applications
-~ ~ ~ ~ ~ ~
->Box64 
+## Third party applications
 
->Box86 
-~ ~ ~ ~ ~ ~
->Proot 
+[Box64](https://github.com/ptitSeb/box64) 
 
->DXVK 
-~ ~ ~ ~ ~ ~
->DXVK-ASYNC
+[Box86](https://github.com/ptitSeb/box86) 
 
->DXVK-GPLASYNC
-~ ~ ~ ~ ~ ~
->VKD3D LGPL-2.1 license
+[Proot](https://github.com/termux/proot) 
 
->D8VK Zlib license
- ~ ~ ~ ~ ~ ~
->Termux-app 
+[DXVK](https://github.com/doitsujin/dxvk) 
 
->Termux-x11 
+[DXVK-ASYNC](https://github.com/Sporif/dxvk-async)
 
->Wine-stable 
-~ ~ ~ ~ ~ ~
->Mesa MIT license
+[DXVK-GPLASYNC](https://gitlab.com/Ph42oN/dxvk-gplasync)
 
->mesa-zink-11.06.22
+[VKD3D](https://github.com/lutris/vkd3d) 
+
+[D8VK](https://github.com/AlpyneDreams/d8vk) 
+
+[Termux-app](https://github.com/termux/termux-app) 
+
+[Termux-x11](https://github.com/termux/termux-x11) 
+
+[Wine](https://wiki.winehq.org/Licensing)
+
+[Mesa](https://docs.mesa3d.org/license.html) 
+
+[mesa-zink-11.06.22](https://github.com/alexvorxx/mesa-zink-11.06.22)
