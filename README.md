@@ -1,4 +1,4 @@
-
+# Dousu emulator
 >Dousuo is a script to install preconfigured rootfs with Box86, Box64, Wine and DXVK installed. It allows you to run x86 and x86_64 windows programs (such as games) on Android using Termux.
 
 >Dousuo is not mobox and box64droid .
@@ -8,12 +8,12 @@ After installation the start command in termux is Dousuo
 
 
 
-Configuration
+# Configuration
 After installing Dousuo some settings and variables can be changed in Dousuo/preferences menu. To install Vulkan/OpenGL drivers you should start Wine and select Mesa and D3D libs in Start Menu -
 > Install. To change or add environment variables edit config saved in /sdcard/Dousuo
 
 
->Device support all 
+# Device support all 
 >Android
 
 >Android 10+ __no root 
@@ -22,13 +22,13 @@ After installing Dousuo some settings and variables can be changed in Dousuo/pre
 
 >Android 12+ __root
 
-~Render~
+
 
 Snapdragon with Adreno 6xx or Adreno 7xx — 
 Turnip + Zink / Turnip + DXVK with better speed.
 Qualcomm/Mediatek/Exynos/Mali — VirGL
 
-Features
+
 Dousuo has automatic updates, so you don't have to reinstall it so often.
 TFM works a lot faster with custom wine.
 The most lightweight rootfs.
